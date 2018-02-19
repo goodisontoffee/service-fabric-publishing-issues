@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{A07B5EB6-E848-4116-A8D0-A826331D98C6}") = "Application", "Application\Application.sfproj", "{21E27E85-B72D-400C-9749-F4016932A84B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleStatefulService", "SimpleStatefulService\SimpleStatefulService.csproj", "{38E0C4C5-560A-4FBC-974B-C8C66B7B90C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21E27E85-B72D-400C-9749-F4016932A84B}.Debug|x64.ActiveCfg = Debug|x64
+		{21E27E85-B72D-400C-9749-F4016932A84B}.Debug|x64.Build.0 = Debug|x64
+		{21E27E85-B72D-400C-9749-F4016932A84B}.Debug|x64.Deploy.0 = Debug|x64
+		{21E27E85-B72D-400C-9749-F4016932A84B}.Release|x64.ActiveCfg = Release|x64
+		{21E27E85-B72D-400C-9749-F4016932A84B}.Release|x64.Build.0 = Release|x64
+		{21E27E85-B72D-400C-9749-F4016932A84B}.Release|x64.Deploy.0 = Release|x64
+		{38E0C4C5-560A-4FBC-974B-C8C66B7B90C9}.Debug|x64.ActiveCfg = Debug|x64
+		{38E0C4C5-560A-4FBC-974B-C8C66B7B90C9}.Debug|x64.Build.0 = Debug|x64
+		{38E0C4C5-560A-4FBC-974B-C8C66B7B90C9}.Release|x64.ActiveCfg = Release|x64
+		{38E0C4C5-560A-4FBC-974B-C8C66B7B90C9}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {82B99CE4-B5A2-4E1D-BE44-D8E7AFAECF70}
+	EndGlobalSection
+EndGlobal
